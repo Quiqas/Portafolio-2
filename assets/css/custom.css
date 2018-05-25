@@ -19,22 +19,11 @@ img.IconoB{
   font-size: 1.2em;
 }
 
- /* copyright */
-   footer .copyright li:before { content: none; }
+
    footer .copyright li { margin-right: 12px; }
 
-   /* social links */
-   footer .social-links { font-size: 22px; }
-   footer .social-links li { margin-left: 18px; }
+  
 
-   /* Go To Top Button */
-   #go-top { margin-left: -22px; }
-   #go-top a {
-   	width: 54px;
-   	height: 54px;
-      font-size: 18px;
-      line-height: 54px;
-   }
 
 .row {
    width: 96%;
@@ -42,45 +31,17 @@ img.IconoB{
    margin: 0 auto;
 }
 
-.row .twelve      { width: 100%; }
-
-footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
-   font-size: 14px;
-   text-align: center;
-   position: relative;
+.row .social-width{ 
+  width: 100%; 
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: black; }
-
-/* copyright */
-footer .copyright {
-    margin: 0;
-    padding: 0;
- }
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
+footer .social-links{ 
+  font-size: 22px; 
 }
-.ie footer .copyright li {
-   display: inline;
-}
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
-}
-footer .copyright  li:first-child:before {
-    display: none;
+footer .social-links li{
+  margin-left: 18px; 
 }
 
-/* social links */
 footer .social-links {
    margin: 18px 0 30px 0;
    padding: 0;
@@ -94,5 +55,35 @@ footer .social-links li {
     color: #F06000;
 }
 
-footer .social-links li:first-child { margin-left: 0; }
+footer .social-links li:first-child{ 
+  margin-left: 0; 
+}
+
+footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: black !important;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: black; }
+
+
+footer .copyright {
+    margin: 0;
+    padding: 0;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+
+
+
   

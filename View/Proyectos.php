@@ -33,7 +33,7 @@
 			    <div class="card mb-4 text-center">
 			        <!--Card image-->
 			        <div class="view overlay">
-			            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+			            <img class="img-fluid lazy" data-original="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
 			            <a href="#!">
 			                <div class="mask rgba-white-slight"></div>
 			            </a>

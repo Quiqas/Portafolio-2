@@ -14,17 +14,17 @@
 
    <section id="resume">
       <div class="row education">
-         <div class="three columns header-col">
-            <h1><span>Educación</span></h1>
+         <div class="col-lg-3 columns header-col">
+            <h1 class="klanimate" data-y="-200" data-delay="0.5"><span>Educación</span></h1>
          </div>
 
-         <div class="nine columns main-col">
+         <div class="col-lg-9 columns main-col">
 
             <div class="row item">
 
                <div class="twelve columns">
 
-                  <h3>Instituto Tecnológico de Ciudad Juárez</h3>
+                  <h3 class="klanimate" data-x="-200" data-delay="0.5">Instituto Tecnológico de Ciudad Juárez</h3>
                   <p class="info">Ing. en Sistemas Computacionales <span>&bull;</span> <em class="date">Actualmente Cursando.</em></p>
 
                   <p>
@@ -43,7 +43,7 @@
 
                <div class="twelve columns">
 
-                  <h3>Colegio de Bachilleres del Estado de Chihuahua Plantel #11 </h3>
+                  <h3 class="klanimate" data-x="-200" data-delay="0.5">Colegio de Bachilleres del Estado de Chihuahua Plantel #11 </h3>
                   <p class="info">Informática Aplicada <span>&bull;</span> <em class="date">Junio 2014</em></p>
 
                   <p>
@@ -57,17 +57,17 @@
 
       <div class="row work">
 
-         <div class="three columns header-col">
-            <h1><span>Cursos/Experiencia</span></h1>
+         <div class="col-lg-3 columns header-col">
+            <h1 class="klanimate" data-y="-200" data-delay="0.5"><span>Cursos/Experiencia</span></h1>
          </div>
 
-         <div class="nine columns main-col">
+         <div class="col-lg-9 columns main-col">
 
             <div class="row item">
 
-               <div class="twelve columns">
+               <div class="col-lg-12 columns">
 
-                  <h3>Programación Android</h3>
+                  <h3 class="klanimate" data-x="-200" data-delay="0.5">Programación Android</h3>
                   <p class="info">Instituto Tecnológico de Ciudad Juárez <span>&bull;</span> <em class="date">Marzo 2015</em></p>
 
                   <p>
@@ -77,9 +77,9 @@
             </div> 
 
             <div class="row item">
-               <div class="twelve columns">
+               <div class="col-lg-12 columns">
 
-                  <h3>Hour of Code.</h3>
+                  <h3 class="klanimate" data-x="-200" data-delay="0.5">Hour of Code.</h3>
                   <p class="info">Escuela primaria Dr. Felix Zandman <span>&bull;</span> <em class="date">Abril 2016</em></p>
 
                   <p>
@@ -89,9 +89,9 @@
             </div>
 
             <div class="row item">
-               <div class="twelve columns">
+               <div class="col-lg-12 columns">
 
-                  <h3>Taller de reparación y mantenimiento de cómputo.</h3>
+                  <h3 class="klanimate" data-x="-200" data-delay="0.5">Taller de reparación y mantenimiento de cómputo.</h3>
                   <p class="info">Instituto Tecnológico de Ciudad Juárez <span>&bull;</span> <em class="date">Octubre 2016</em></p>
 
                   <p>
@@ -101,9 +101,9 @@
             </div>
 
             <div class="row item">
-               <div class="twelve columns">
+               <div class="col-lg-12 columns">
 
-                  <h3>Impartición Curso Android Studio.</h3>
+                  <h3 class="klanimate" data-x="-200" data-delay="0.5">Impartición Curso Android Studio.</h3>
                   <p class="info">Instituto Tecnológico de Ciudad Juárez <span>&bull;</span> <em class="date">Octubre 2017</em></p>
 
                   <p>
@@ -113,9 +113,9 @@
             </div>
 
             <div class="row item">
-               <div class="twelve columns">
+               <div class="col-lg-12 columns">
 
-                  <h3>HACKATON, Tira paro 2017.</h3>
+                  <h3 class="klanimate" data-x="-200" data-delay="0.5">HACKATON, Tira paro 2017.</h3>
                   <p class="info">Universidad Autónoma de Ciudad Juárez <span>&bull;</span> <em class="date">Diciembre 2017</em></p>
 
                   <p>
@@ -128,11 +128,11 @@
 
       <div class="row skill">
 
-         <div class="three columns header-col">
-            <h1><span>Habilidades</span></h1>
+         <div class="col-lg-3 columns header-col">
+            <h1 class="klanimate" data-y="-200" data-delay="0.5"><span>Habilidades</span></h1>
          </div>
 
-         <div class="nine columns main-col">
+         <div class="col-lg-9 columns main-col">
 
             <div class="bars">
 

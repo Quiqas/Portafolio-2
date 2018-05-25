@@ -5,20 +5,21 @@
     border: 1px solid #fff;
     text-transform: uppercase;
     padding: .8em 1.2em .7em;
-    right: 180px;
     top: 100px;
+  left: 185px;
     font-size: 0.8em;
     letter-spacing: 0.1em;
     -webkit-font-smoothing: initial;
     -moz-osx-font-smoothing: initial;
     overflow: hidden;
+    background-color: #252525;
 
 }
 .row.expanded {
     max-width: none;
 }
 .container {
-    max-width: 80em;
+    max-width: 70em;
 }
 .about-text {
     color: white;
@@ -78,7 +79,7 @@ a {
   color: black;
   position: absolute;
   top: 150px;
-  left: 150px;
+  left: 185px;
   letter-spacing: .4em;
   text-transform: uppercase;
   z-index: 10;
@@ -116,26 +117,39 @@ a {
 }
 
 /*Landscape tablets and medium deskopts*/
-
 @media (min-width: 992px) and (max-width: 1199px){
-     .contact {
-        right: -850px;
-        position: relative;
-   }
-   .logo h1{
+     
+   .contact{
         left: 20px;
+   }
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+     
+   .contact{
+        left: 45px;
    }
 }
 
 /*Portrait tablets and small deskopts*/
 
 @media (min-width: 730px) and (max-width: 991px){
-     .contact {
-        right: -790px;
+     
+   .contact{
+        left: 40px;
         position: relative;
-        top: 70px;
+        top: 50px;
    }
-   .logo h1{
+   .Espacio{
+    margin-top: 0px;
+}
+
+}
+
+/*Portrait tablets and small deskopts*/
+
+@media (min-width: 100px) and (max-width: 401px){
+   .contact{
         left: 15px;
         position: relative;
         top: 50px;
@@ -143,23 +157,39 @@ a {
    .Espacio{
     margin-top: 0px;
 }
+#about h1{
+    font-size: 2em;
+   }
+#about h3{
+    font-size: 1.1em;
+   }
 }
+
+
 
 
 
 /*Portrait phones and smaller*/
 
 @media (max-width: 480px){
-    .contact {
-        right: -260px;
-        top: 60px;
-        background-color: #252525;
+    
+   .contact{
+        left: 30px;
+        top: 40px;
         position: relative;
+        background-color: #252525;
    }
-   .logo h1{
-        left: 20px;
+   .Espacio{
+    margin-top: 0px;
+}
+}
+@media (max-width: 400px){
+   
+   .contact h1{
+        left: 30px;
         top: 40px;
          position: relative;
+         background-color: #252525;
    }
    .Espacio{
     margin-top: 0px;

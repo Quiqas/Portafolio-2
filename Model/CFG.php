@@ -31,7 +31,7 @@ $COD = new stdClass;
 | WARNING: If you change this, it will get errors
 |
 */
-$GLOBALS['COD']->dir = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on' ? 'https' : 'http' ).'://'.$_SERVER['HTTP_HOST'].DS."modelo";
+$GLOBALS['COD']->dir = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on' ? 'https' : 'http' ).'://'.$_SERVER['HTTP_HOST'].DS."portafolio";
 
 /*
 |--------------------------------------------------------------------------
@@ -53,7 +53,7 @@ $GLOBALS['COD']->doc = str_replace("Model", "", realpath(dirname(__FILE__)));
 |--------------------------------------------------------------------------
 |
 */
-$GLOBALS['COD']->analytics = 'UA-XXXXXXX-X';
+$GLOBALS['COD']->analytics = 'UA-119523358-1';
 
 /*
 | -------------------------------------------------------------------
